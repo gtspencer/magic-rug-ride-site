@@ -103,6 +103,7 @@ export default function GlobalStyles() {
         h2 {
           font-size: var(--text-03);
           padding: var(--space-sm) 0;
+          text-align: center;
         }
         h3 {
           font-size: var(--text-03);

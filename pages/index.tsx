@@ -16,6 +16,7 @@ export default function Home({ tokens }: { tokens: any }) {
     <IndexWrapper>
       <Head />
       <h1>{process.env.NEXT_PUBLIC_APP_TITLE}</h1>
+      <h2>Grab a rug to ride the Metaverse in style.  Why walk when you can rug ride?</h2>
       <AuctionsList tokens={tokens} />
     </IndexWrapper>
   );
@@ -32,6 +33,7 @@ export const getStaticProps: GetStaticProps = async () => {
     limit: 100,
     offset: 0,
   });
+  console.log(tokens);
 
   return {
     props: {
