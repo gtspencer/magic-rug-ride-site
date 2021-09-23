@@ -9,7 +9,7 @@ export default function About() {
     <>
       <Head title={'About'} />
       <PageWrapper>
-        <Markdown markdown={readMe}/>
+        <img src='/images/rugstorebillboard.png'/>
       </PageWrapper> 
     </>
   )

@@ -5,6 +5,8 @@ const defaultDescription = process.env.NEXT_PUBLIC_DEFAULT_DESCRIPTION || '';
 const defaultOGURL = process.env.NEXT_PUBLIC_BASE_URL || '';
 const defaultOGImage = `${process.env.NEXT_PUBLIC_BASE_URL}/fpo/social-card.jpg`;
 const favicon = '/fpo/favicon.png'
+const rugstore = '/images/rugstorebillboard.png'
+
 
 type HeadProps = {
   title?: string,
@@ -20,6 +22,7 @@ const Head = ({ title, description, url, ogImage }: HeadProps) => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description || defaultDescription} />
     <link rel="icon" type="image/png" sizes="24x24" href={favicon} />
+    <link rel="rugstorestuff" type="image/png" sizes="781x400" href={rugstore} />
     <meta property="og:url" content={url || defaultOGURL} />
     <meta property="og:title" content={title || ''} />
     <meta property="og:description" content={description || defaultDescription} />
