@@ -1,3 +1,3 @@
 # Create Auction House ☼☽
 
-  ![Rug Store](./images/rugstorebillboard.png)
+  ![Rug Store](./public/images/rugstorebillboard.png)
